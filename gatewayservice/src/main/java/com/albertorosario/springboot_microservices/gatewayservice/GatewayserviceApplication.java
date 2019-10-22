@@ -1,5 +1,9 @@
 package com.albertorosario.springboot_microservices.gatewayservice;
 
+import com.albertorosario.springboot_microservices.gatewayservice.filters.ErrorFilter;
+import com.albertorosario.springboot_microservices.gatewayservice.filters.PostFilter;
+import com.albertorosario.springboot_microservices.gatewayservice.filters.PreFilter;
+import com.albertorosario.springboot_microservices.gatewayservice.filters.RouteFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
